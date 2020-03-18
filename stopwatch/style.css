@@ -1,0 +1,33 @@
+#general {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 350px;
+  background-color: black;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+button {
+  outline: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  display: inline;
+  margin-left: 35px;
+  margin-top: 10px;
+  background-color: green;
+  border-radius: 25px;
+  align-items: center;
+  font-size: medium;
+}
+p {
+  display: inline;
+  font-size: xx-large;
+  color: white;
+}
+
+#container {
+  margin-left: 81px;
+  margin-top: 20px;
+}
