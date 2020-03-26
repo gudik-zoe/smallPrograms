@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>stopwatch</title>
+  </head>
+  <body>
+    <div class="div"></div>
+    <div id="general">
+      <br />
+      <div id="container">
+        <p id="third">00 :</p>
+        <p id="second">00 :</p>
+        <p id="first">00</p>
+      </div>
+
+      <button id="stop" onclick="stop()">stop</button>
+      <button id="start" type="button" onclick="startt()">start</button>
+      <button id="reset" type="button" onclick="reset()">reset</button>
+    </div>
+    <script src="stopwatch.js"></script>
+  </body>
+  <script>
+    require("./renderer.js");
+  </script>
+</html>

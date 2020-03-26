@@ -1,11 +1,29 @@
-#general {
+.div {
+  width: 300px;
+  background-color: black;
+  -webkit-app-region: drag;
   position: relative;
-  margin-top: 100px;
-  margin-left: 350px;
+  margin: 0 auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: grabbing;
+}
+#general {
+  padding-bottom: 10px;
+  position: relative;
+  margin: 0 auto;
   background-color: black;
   border-radius: 10px;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
   width: 300px;
-  height: 200px;
+  height: 180px;
+}
+
+body {
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: transparent;
 }
 
 button {
@@ -21,6 +39,7 @@ button {
   align-items: center;
   font-size: medium;
 }
+
 p {
   display: inline;
   font-size: xx-large;
@@ -28,6 +47,6 @@ p {
 }
 
 #container {
-  margin-left: 81px;
-  margin-top: 20px;
+  margin-left: 70px;
+  margin-top: 47px;
 }
