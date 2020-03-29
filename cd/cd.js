@@ -4,6 +4,7 @@ let thirdInterval;
 let fourthInterval;
 let secs;
 let mins;
+let audio = new Audio("VID-20200318-WA0062(mp3)-[AudioTrimmer.com] (1).mp3");
 
 document.getElementById("here").innerHTML = "00" + ":" + "00";
 function start() {
@@ -16,7 +17,8 @@ function start() {
         "00" + ":" + ("0" + secs--).slice(-2);
       if (secs < 0) {
         clearInterval(firstInterval);
-        document.getElementById("here").innerHTML = "time's up";
+        document.getElementById("here").innerHTML = "Attention!";
+        audio.play();
       }
     }, 1000);
   }
