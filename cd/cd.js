@@ -4,7 +4,9 @@ let thirdInterval;
 let fourthInterval;
 let secs;
 let mins;
-let audio = new Audio("VID-20200318-WA0062(mp3)-[AudioTrimmer.com] (1).mp3");
+let audio = new Audio(
+  "Nancy Ajram - Ma Tegi Hena - Official Video Clip  نانسي عجرم - فيديو كليب ما تيجي هنا-[AudioTrimmer.com].mp3"
+);
 
 document.getElementById("here").innerHTML = "00" + ":" + "00";
 function start() {
